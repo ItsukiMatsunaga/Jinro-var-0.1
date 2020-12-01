@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB151DF0256AE4AA00644F64 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB151DEF256AE4AA00644F64 /* PlaySound.swift */; };
+		DB151E00256AEA6300644F64 /* open.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB151DFD256AEA6300644F64 /* open.mp3 */; };
+		DB151E01256AEA6300644F64 /* bottun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB151DFE256AEA6300644F64 /* bottun.mp3 */; };
+		DB151E02256AEA6300644F64 /* countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB151DFF256AEA6300644F64 /* countdown.mp3 */; };
+		DB151E07256AFC9400644F64 /* night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB151E06256AFC9400644F64 /* night.mp3 */; };
+		DB18D5DC2559C1800076DDA4 /* voting_rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18D5DB2559C17F0076DDA4 /* voting_rule.swift */; };
+		DB18D5E42559C4EF0076DDA4 /* voting_rule02.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18D5E32559C4EF0076DDA4 /* voting_rule02.swift */; };
+		DB18D5F12559C66E0076DDA4 /* CheckPlayer_voting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18D5F02559C66E0076DDA4 /* CheckPlayer_voting.swift */; };
+		DB18D5F92559CA0D0076DDA4 /* voting_on.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18D5F82559CA0D0076DDA4 /* voting_on.swift */; };
+		DB18D5FE2559CFC00076DDA4 /* voting_result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18D5FD2559CFC00076DDA4 /* voting_result.swift */; };
+		DB18D6032559D0FB0076DDA4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18D6022559D0FB0076DDA4 /* Result.swift */; };
+		DB18D6082559D9DB0076DDA4 /* Discussion02.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18D6072559D9DB0076DDA4 /* Discussion02.swift */; };
+		DB7203472551276F00B60BEA /* Discussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7203462551276F00B60BEA /* Discussion.swift */; };
+		DB89DE36254684D70022484C /* Night_rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE35254684D70022484C /* Night_rule.swift */; };
+		DB89DE3E254687580022484C /* Police_rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE3D254687580022484C /* Police_rule.swift */; };
+		DB89DE6525468FF90022484C /* Moring_rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE6425468FF90022484C /* Moring_rule.swift */; };
+		DB89DE6A25469BBC0022484C /* CheckPlayer_Mor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE6925469BBC0022484C /* CheckPlayer_Mor.swift */; };
+		DB89DE7225469EA40022484C /* CheckJinro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE7125469EA40022484C /* CheckJinro.swift */; };
+		DB89DE772546A4F00022484C /* CheckOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE762546A4F00022484C /* CheckOther.swift */; };
+		DB89DE7C2546A6530022484C /* CheckFortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE7B2546A6530022484C /* CheckFortune.swift */; };
+		DB89DE812546A85E0022484C /* FortuneResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE802546A85E0022484C /* FortuneResult.swift */; };
+		DB89DE862546A9ED0022484C /* CheckGiron.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE852546A9ED0022484C /* CheckGiron.swift */; };
+		DB8D6428256648BF00C95DB6 /* Rule_top.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D6427256648BF00C95DB6 /* Rule_top.swift */; };
+		DB8D642E2566495000C95DB6 /* gamesinkou.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D642C2566495000C95DB6 /* gamesinkou.swift */; };
+		DB8D642F2566495000C95DB6 /* gaiyou.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D642D2566495000C95DB6 /* gaiyou.swift */; };
+		DB8D64352566496200C95DB6 /* shouhai.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D64332566496200C95DB6 /* shouhai.swift */; };
+		DB8D64362566496200C95DB6 /* yakusyoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D64342566496200C95DB6 /* yakusyoku.swift */; };
+		DBA9D69825304A7C00884362 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D69725304A7C00884362 /* Control.swift */; };
+		DBA9D6A02533F62100884362 /* JobSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D69F2533F62100884362 /* JobSelect.swift */; };
+		DBA9D6A52534984600884362 /* JobRule_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D6A42534984600884362 /* JobRule_01.swift */; };
+		DBA9D6AA2534989900884362 /* JobRule_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D6A92534989900884362 /* JobRule_02.swift */; };
+		DBB679F125224D660003AE56 /* Jinro_ver_01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB679F025224D660003AE56 /* Jinro_ver_01App.swift */; };
+		DBB679F325224D660003AE56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB679F225224D660003AE56 /* ContentView.swift */; };
+		DBB679F525224D6B0003AE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB679F425224D6B0003AE56 /* Assets.xcassets */; };
+		DBB679F825224D6B0003AE56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB679F725224D6B0003AE56 /* Preview Assets.xcassets */; };
+		DBB67A0325224D6C0003AE56 /* Jinro_ver_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB67A0225224D6C0003AE56 /* Jinro_ver_01Tests.swift */; };
+		DBB67A0E25224D6C0003AE56 /* Jinro_ver_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB67A0D25224D6C0003AE56 /* Jinro_ver_01UITests.swift */; };
+		DBBE3C552549D5B7008D08F7 /* Police_on.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE3C542549D5B7008D08F7 /* Police_on.swift */; };
+		DBBE3C5F2549D840008D08F7 /* Police_off.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE3C5E2549D840008D08F7 /* Police_off.swift */; };
+		DBBE3C672549DB39008D08F7 /* Police_on_result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE3C662549DB39008D08F7 /* Police_on_result.swift */; };
+		DBBE3C6C2549DC09008D08F7 /* DJ_rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE3C6B2549DC09008D08F7 /* DJ_rule.swift */; };
+		DBBE3C712549DD1E008D08F7 /* DJ_on.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE3C702549DD1E008D08F7 /* DJ_on.swift */; };
+		DBBE3C762549DE0E008D08F7 /* DJ_on_result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE3C752549DE0E008D08F7 /* DJ_on_result.swift */; };
+		DBBE3C7B2549DF38008D08F7 /* DJ_off.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE3C7A2549DF38008D08F7 /* DJ_off.swift */; };
+		DBC56283252C3A0A00E867BD /* SelectPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC56282252C3A0A00E867BD /* SelectPlayer.swift */; };
+		DBC56288252E2B0600E867BD /* PlayerName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC56287252E2B0600E867BD /* PlayerName.swift */; };
+		DBC56298252E8C1600E867BD /* CheckPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC56297252E8C1600E867BD /* CheckPlayer.swift */; };
+		DBD44BE7252B37D9008F5403 /* PlayerNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD44BE6252B37D9008F5403 /* PlayerNumber.swift */; };
+		DBF7E7642534D08F0055DE14 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7E7632534D08F0055DE14 /* Test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB679FF25224D6B0003AE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB679E525224D660003AE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB679EC25224D660003AE56;
+			remoteInfo = "Jinro ver.01";
+		};
+		DBB67A0A25224D6C0003AE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB679E525224D660003AE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB679EC25224D660003AE56;
+			remoteInfo = "Jinro ver.01";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB151DEF256AE4AA00644F64 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		DB151DFD256AEA6300644F64 /* open.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = open.mp3; sourceTree = "<group>"; };
+		DB151DFE256AEA6300644F64 /* bottun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bottun.mp3; sourceTree = "<group>"; };
+		DB151DFF256AEA6300644F64 /* countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countdown.mp3; sourceTree = "<group>"; };
+		DB151E06256AFC9400644F64 /* night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = night.mp3; sourceTree = "<group>"; };
+		DB18D5DB2559C17F0076DDA4 /* voting_rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voting_rule.swift; sourceTree = "<group>"; };
+		DB18D5E32559C4EF0076DDA4 /* voting_rule02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voting_rule02.swift; sourceTree = "<group>"; };
+		DB18D5F02559C66E0076DDA4 /* CheckPlayer_voting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPlayer_voting.swift; sourceTree = "<group>"; };
+		DB18D5F82559CA0D0076DDA4 /* voting_on.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voting_on.swift; sourceTree = "<group>"; };
+		DB18D5FD2559CFC00076DDA4 /* voting_result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voting_result.swift; sourceTree = "<group>"; };
+		DB18D6022559D0FB0076DDA4 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		DB18D6072559D9DB0076DDA4 /* Discussion02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discussion02.swift; sourceTree = "<group>"; };
+		DB7203462551276F00B60BEA /* Discussion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discussion.swift; sourceTree = "<group>"; };
+		DB89DE35254684D70022484C /* Night_rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night_rule.swift; sourceTree = "<group>"; };
+		DB89DE3D254687580022484C /* Police_rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Police_rule.swift; sourceTree = "<group>"; };
+		DB89DE6425468FF90022484C /* Moring_rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moring_rule.swift; sourceTree = "<group>"; };
+		DB89DE6925469BBC0022484C /* CheckPlayer_Mor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPlayer_Mor.swift; sourceTree = "<group>"; };
+		DB89DE7125469EA40022484C /* CheckJinro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckJinro.swift; sourceTree = "<group>"; };
+		DB89DE762546A4F00022484C /* CheckOther.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOther.swift; sourceTree = "<group>"; };
+		DB89DE7B2546A6530022484C /* CheckFortune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFortune.swift; sourceTree = "<group>"; };
+		DB89DE802546A85E0022484C /* FortuneResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneResult.swift; sourceTree = "<group>"; };
+		DB89DE852546A9ED0022484C /* CheckGiron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckGiron.swift; sourceTree = "<group>"; };
+		DB8D6427256648BF00C95DB6 /* Rule_top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule_top.swift; sourceTree = "<group>"; };
+		DB8D642C2566495000C95DB6 /* gamesinkou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gamesinkou.swift; path = "../../../../OneDrive_1_2020-11-19/Jinro_Rule/Jinro_Rule/gamesinkou.swift"; sourceTree = "<group>"; };
+		DB8D642D2566495000C95DB6 /* gaiyou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gaiyou.swift; path = "../../../../OneDrive_1_2020-11-19/Jinro_Rule/Jinro_Rule/gaiyou.swift"; sourceTree = "<group>"; };
+		DB8D64332566496200C95DB6 /* shouhai.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = shouhai.swift; path = "../../../../OneDrive_1_2020-11-19/Jinro_Rule/Jinro_Rule/shouhai.swift"; sourceTree = "<group>"; };
+		DB8D64342566496200C95DB6 /* yakusyoku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = yakusyoku.swift; path = "../../../../OneDrive_1_2020-11-19/Jinro_Rule/Jinro_Rule/yakusyoku.swift"; sourceTree = "<group>"; };
+		DBA9D69725304A7C00884362 /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
+		DBA9D69F2533F62100884362 /* JobSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSelect.swift; sourceTree = "<group>"; };
+		DBA9D6A42534984600884362 /* JobRule_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobRule_01.swift; sourceTree = "<group>"; };
+		DBA9D6A92534989900884362 /* JobRule_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobRule_02.swift; sourceTree = "<group>"; };
+		DBB679ED25224D660003AE56 /* Jinro ver.01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jinro ver.01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB679F025224D660003AE56 /* Jinro_ver_01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jinro_ver_01App.swift; sourceTree = "<group>"; };
+		DBB679F225224D660003AE56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBB679F425224D6B0003AE56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB679F725224D6B0003AE56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBB679F925224D6B0003AE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB679FE25224D6B0003AE56 /* Jinro ver.01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jinro ver.01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB67A0225224D6C0003AE56 /* Jinro_ver_01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jinro_ver_01Tests.swift; sourceTree = "<group>"; };
+		DBB67A0425224D6C0003AE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB67A0925224D6C0003AE56 /* Jinro ver.01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jinro ver.01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB67A0D25224D6C0003AE56 /* Jinro_ver_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jinro_ver_01UITests.swift; sourceTree = "<group>"; };
+		DBB67A0F25224D6C0003AE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBE3C542549D5B7008D08F7 /* Police_on.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Police_on.swift; sourceTree = "<group>"; };
+		DBBE3C5E2549D840008D08F7 /* Police_off.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Police_off.swift; sourceTree = "<group>"; };
+		DBBE3C662549DB39008D08F7 /* Police_on_result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Police_on_result.swift; sourceTree = "<group>"; };
+		DBBE3C6B2549DC09008D08F7 /* DJ_rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJ_rule.swift; sourceTree = "<group>"; };
+		DBBE3C702549DD1E008D08F7 /* DJ_on.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJ_on.swift; sourceTree = "<group>"; };
+		DBBE3C752549DE0E008D08F7 /* DJ_on_result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJ_on_result.swift; sourceTree = "<group>"; };
+		DBBE3C7A2549DF38008D08F7 /* DJ_off.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJ_off.swift; sourceTree = "<group>"; };
+		DBC56282252C3A0A00E867BD /* SelectPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlayer.swift; sourceTree = "<group>"; };
+		DBC56287252E2B0600E867BD /* PlayerName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerName.swift; sourceTree = "<group>"; };
+		DBC56297252E8C1600E867BD /* CheckPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPlayer.swift; sourceTree = "<group>"; };
+		DBD44BE6252B37D9008F5403 /* PlayerNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNumber.swift; sourceTree = "<group>"; };
+		DBF7E7632534D08F0055DE14 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB679EA25224D660003AE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB679FB25224D6B0003AE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB67A0625224D6C0003AE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB151DF7256AE78100644F64 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				DB151DFE256AEA6300644F64 /* bottun.mp3 */,
+				DB151DFF256AEA6300644F64 /* countdown.mp3 */,
+				DB151E06256AFC9400644F64 /* night.mp3 */,
+				DB151DFD256AEA6300644F64 /* open.mp3 */,
+				DB151DEF256AE4AA00644F64 /* PlaySound.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		DB18D5DA2559C13C0076DDA4 /* 投票フェーズ */ = {
+			isa = PBXGroup;
+			children = (
+				DB18D5DB2559C17F0076DDA4 /* voting_rule.swift */,
+				DB18D6072559D9DB0076DDA4 /* Discussion02.swift */,
+				DB18D5E32559C4EF0076DDA4 /* voting_rule02.swift */,
+				DB18D5F02559C66E0076DDA4 /* CheckPlayer_voting.swift */,
+				DB18D5F82559CA0D0076DDA4 /* voting_on.swift */,
+				DB18D5FD2559CFC00076DDA4 /* voting_result.swift */,
+				DB18D6022559D0FB0076DDA4 /* Result.swift */,
+			);
+			name = "投票フェーズ";
+			path = "投票フェーズ";
+			sourceTree = "<group>";
+		};
+		DB89DE302546844E0022484C /* 準備フェーズ */ = {
+			isa = PBXGroup;
+			children = (
+				DBB679F025224D660003AE56 /* Jinro_ver_01App.swift */,
+				DBB679F225224D660003AE56 /* ContentView.swift */,
+				DBD44BE6252B37D9008F5403 /* PlayerNumber.swift */,
+				DBC56282252C3A0A00E867BD /* SelectPlayer.swift */,
+				DBC56287252E2B0600E867BD /* PlayerName.swift */,
+				DBC56297252E8C1600E867BD /* CheckPlayer.swift */,
+				DBA9D6A42534984600884362 /* JobRule_01.swift */,
+				DBA9D6A92534989900884362 /* JobRule_02.swift */,
+				DBA9D69F2533F62100884362 /* JobSelect.swift */,
+			);
+			name = "準備フェーズ";
+			path = "準備フェーズ";
+			sourceTree = "<group>";
+		};
+		DB89DE34254684A80022484C /* 夜フェーズ */ = {
+			isa = PBXGroup;
+			children = (
+				DB89DE35254684D70022484C /* Night_rule.swift */,
+				DB89DE3D254687580022484C /* Police_rule.swift */,
+				DBBE3C542549D5B7008D08F7 /* Police_on.swift */,
+				DBBE3C662549DB39008D08F7 /* Police_on_result.swift */,
+				DBBE3C5E2549D840008D08F7 /* Police_off.swift */,
+				DBBE3C6B2549DC09008D08F7 /* DJ_rule.swift */,
+				DBBE3C702549DD1E008D08F7 /* DJ_on.swift */,
+				DBBE3C752549DE0E008D08F7 /* DJ_on_result.swift */,
+				DBBE3C7A2549DF38008D08F7 /* DJ_off.swift */,
+			);
+			name = "夜フェーズ";
+			path = "夜フェーズ";
+			sourceTree = "<group>";
+		};
+		DB89DE4225468F6E0022484C /* 早朝フェーズ */ = {
+			isa = PBXGroup;
+			children = (
+				DB89DE6425468FF90022484C /* Moring_rule.swift */,
+				DB89DE6925469BBC0022484C /* CheckPlayer_Mor.swift */,
+				DB89DE7125469EA40022484C /* CheckJinro.swift */,
+				DB89DE762546A4F00022484C /* CheckOther.swift */,
+				DB89DE7B2546A6530022484C /* CheckFortune.swift */,
+				DB89DE802546A85E0022484C /* FortuneResult.swift */,
+				DB89DE852546A9ED0022484C /* CheckGiron.swift */,
+				DB7203462551276F00B60BEA /* Discussion.swift */,
+			);
+			name = "早朝フェーズ";
+			path = "早朝フェーズ";
+			sourceTree = "<group>";
+		};
+		DB8D64262566489500C95DB6 /* ルール説明 */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D6427256648BF00C95DB6 /* Rule_top.swift */,
+				DB8D642D2566495000C95DB6 /* gaiyou.swift */,
+				DB8D642C2566495000C95DB6 /* gamesinkou.swift */,
+				DB8D64332566496200C95DB6 /* shouhai.swift */,
+				DB8D64342566496200C95DB6 /* yakusyoku.swift */,
+			);
+			path = "ルール説明";
+			sourceTree = "<group>";
+		};
+		DBB679E425224D660003AE56 = {
+			isa = PBXGroup;
+			children = (
+				DBB679EF25224D660003AE56 /* Jinro ver.01 */,
+				DBB67A0125224D6C0003AE56 /* Jinro ver.01Tests */,
+				DBB67A0C25224D6C0003AE56 /* Jinro ver.01UITests */,
+				DBB679EE25224D660003AE56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB679EE25224D660003AE56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB679ED25224D660003AE56 /* Jinro ver.01.app */,
+				DBB679FE25224D6B0003AE56 /* Jinro ver.01Tests.xctest */,
+				DBB67A0925224D6C0003AE56 /* Jinro ver.01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB679EF25224D660003AE56 /* Jinro ver.01 */ = {
+			isa = PBXGroup;
+			children = (
+				DBA9D69725304A7C00884362 /* Control.swift */,
+				DB151DF7256AE78100644F64 /* Music */,
+				DB89DE302546844E0022484C /* 準備フェーズ */,
+				DB8D64262566489500C95DB6 /* ルール説明 */,
+				DB89DE4225468F6E0022484C /* 早朝フェーズ */,
+				DB89DE34254684A80022484C /* 夜フェーズ */,
+				DB18D5DA2559C13C0076DDA4 /* 投票フェーズ */,
+				DBF7E7632534D08F0055DE14 /* Test.swift */,
+				DBB679F425224D6B0003AE56 /* Assets.xcassets */,
+				DBB679F925224D6B0003AE56 /* Info.plist */,
+				DBB679F625224D6B0003AE56 /* Preview Content */,
+			);
+			path = "Jinro ver.01";
+			sourceTree = "<group>";
+		};
+		DBB679F625224D6B0003AE56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBB679F725224D6B0003AE56 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBB67A0125224D6C0003AE56 /* Jinro ver.01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB67A0225224D6C0003AE56 /* Jinro_ver_01Tests.swift */,
+				DBB67A0425224D6C0003AE56 /* Info.plist */,
+			);
+			path = "Jinro ver.01Tests";
+			sourceTree = "<group>";
+		};
+		DBB67A0C25224D6C0003AE56 /* Jinro ver.01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB67A0D25224D6C0003AE56 /* Jinro_ver_01UITests.swift */,
+				DBB67A0F25224D6C0003AE56 /* Info.plist */,
+			);
+			path = "Jinro ver.01UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB679EC25224D660003AE56 /* Jinro ver.01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB67A1225224D6C0003AE56 /* Build configuration list for PBXNativeTarget "Jinro ver.01" */;
+			buildPhases = (
+				DBB679E925224D660003AE56 /* Sources */,
+				DBB679EA25224D660003AE56 /* Frameworks */,
+				DBB679EB25224D660003AE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jinro ver.01";
+			productName = "Jinro ver.01";
+			productReference = DBB679ED25224D660003AE56 /* Jinro ver.01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBB679FD25224D6B0003AE56 /* Jinro ver.01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB67A1525224D6C0003AE56 /* Build configuration list for PBXNativeTarget "Jinro ver.01Tests" */;
+			buildPhases = (
+				DBB679FA25224D6B0003AE56 /* Sources */,
+				DBB679FB25224D6B0003AE56 /* Frameworks */,
+				DBB679FC25224D6B0003AE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB67A0025224D6B0003AE56 /* PBXTargetDependency */,
+			);
+			name = "Jinro ver.01Tests";
+			productName = "Jinro ver.01Tests";
+			productReference = DBB679FE25224D6B0003AE56 /* Jinro ver.01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBB67A0825224D6C0003AE56 /* Jinro ver.01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB67A1825224D6C0003AE56 /* Build configuration list for PBXNativeTarget "Jinro ver.01UITests" */;
+			buildPhases = (
+				DBB67A0525224D6C0003AE56 /* Sources */,
+				DBB67A0625224D6C0003AE56 /* Frameworks */,
+				DBB67A0725224D6C0003AE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB67A0B25224D6C0003AE56 /* PBXTargetDependency */,
+			);
+			name = "Jinro ver.01UITests";
+			productName = "Jinro ver.01UITests";
+			productReference = DBB67A0925224D6C0003AE56 /* Jinro ver.01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB679E525224D660003AE56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DBB679EC25224D660003AE56 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DBB679FD25224D6B0003AE56 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DBB679EC25224D660003AE56;
+					};
+					DBB67A0825224D6C0003AE56 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DBB679EC25224D660003AE56;
+					};
+				};
+			};
+			buildConfigurationList = DBB679E825224D660003AE56 /* Build configuration list for PBXProject "Jinro ver.01" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB679E425224D660003AE56;
+			productRefGroup = DBB679EE25224D660003AE56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB679EC25224D660003AE56 /* Jinro ver.01 */,
+				DBB679FD25224D6B0003AE56 /* Jinro ver.01Tests */,
+				DBB67A0825224D6C0003AE56 /* Jinro ver.01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB679EB25224D660003AE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB151E01256AEA6300644F64 /* bottun.mp3 in Resources */,
+				DBB679F825224D6B0003AE56 /* Preview Assets.xcassets in Resources */,
+				DBB679F525224D6B0003AE56 /* Assets.xcassets in Resources */,
+				DB151E07256AFC9400644F64 /* night.mp3 in Resources */,
+				DB151E02256AEA6300644F64 /* countdown.mp3 in Resources */,
+				DB151E00256AEA6300644F64 /* open.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB679FC25224D6B0003AE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB67A0725224D6C0003AE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB679E925224D660003AE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB89DE36254684D70022484C /* Night_rule.swift in Sources */,
+				DBBE3C762549DE0E008D08F7 /* DJ_on_result.swift in Sources */,
+				DB8D642E2566495000C95DB6 /* gamesinkou.swift in Sources */,
+				DB151DF0256AE4AA00644F64 /* PlaySound.swift in Sources */,
+				DB18D5E42559C4EF0076DDA4 /* voting_rule02.swift in Sources */,
+				DBA9D6A52534984600884362 /* JobRule_01.swift in Sources */,
+				DB7203472551276F00B60BEA /* Discussion.swift in Sources */,
+				DBB679F325224D660003AE56 /* ContentView.swift in Sources */,
+				DBB679F125224D660003AE56 /* Jinro_ver_01App.swift in Sources */,
+				DB18D5FE2559CFC00076DDA4 /* voting_result.swift in Sources */,
+				DBBE3C7B2549DF38008D08F7 /* DJ_off.swift in Sources */,
+				DBA9D69825304A7C00884362 /* Control.swift in Sources */,
+				DB8D64352566496200C95DB6 /* shouhai.swift in Sources */,
+				DBBE3C712549DD1E008D08F7 /* DJ_on.swift in Sources */,
+				DB89DE6A25469BBC0022484C /* CheckPlayer_Mor.swift in Sources */,
+				DB89DE6525468FF90022484C /* Moring_rule.swift in Sources */,
+				DB18D5F12559C66E0076DDA4 /* CheckPlayer_voting.swift in Sources */,
+				DB18D6032559D0FB0076DDA4 /* Result.swift in Sources */,
+				DBC56283252C3A0A00E867BD /* SelectPlayer.swift in Sources */,
+				DB89DE3E254687580022484C /* Police_rule.swift in Sources */,
+				DBBE3C552549D5B7008D08F7 /* Police_on.swift in Sources */,
+				DBF7E7642534D08F0055DE14 /* Test.swift in Sources */,
+				DB8D6428256648BF00C95DB6 /* Rule_top.swift in Sources */,
+				DB89DE772546A4F00022484C /* CheckOther.swift in Sources */,
+				DBA9D6AA2534989900884362 /* JobRule_02.swift in Sources */,
+				DBBE3C6C2549DC09008D08F7 /* DJ_rule.swift in Sources */,
+				DBBE3C672549DB39008D08F7 /* Police_on_result.swift in Sources */,
+				DB89DE862546A9ED0022484C /* CheckGiron.swift in Sources */,
+				DB89DE7225469EA40022484C /* CheckJinro.swift in Sources */,
+				DBD44BE7252B37D9008F5403 /* PlayerNumber.swift in Sources */,
+				DBA9D6A02533F62100884362 /* JobSelect.swift in Sources */,
+				DB89DE812546A85E0022484C /* FortuneResult.swift in Sources */,
+				DBC56288252E2B0600E867BD /* PlayerName.swift in Sources */,
+				DBBE3C5F2549D840008D08F7 /* Police_off.swift in Sources */,
+				DB18D5DC2559C1800076DDA4 /* voting_rule.swift in Sources */,
+				DB8D642F2566495000C95DB6 /* gaiyou.swift in Sources */,
+				DB18D6082559D9DB0076DDA4 /* Discussion02.swift in Sources */,
+				DB18D5F92559CA0D0076DDA4 /* voting_on.swift in Sources */,
+				DB89DE7C2546A6530022484C /* CheckFortune.swift in Sources */,
+				DBC56298252E8C1600E867BD /* CheckPlayer.swift in Sources */,
+				DB8D64362566496200C95DB6 /* yakusyoku.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB679FA25224D6B0003AE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB67A0325224D6C0003AE56 /* Jinro_ver_01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB67A0525224D6C0003AE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB67A0E25224D6C0003AE56 /* Jinro_ver_01UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBB67A0025224D6B0003AE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB679EC25224D660003AE56 /* Jinro ver.01 */;
+			targetProxy = DBB679FF25224D6B0003AE56 /* PBXContainerItemProxy */;
+		};
+		DBB67A0B25224D6C0003AE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB679EC25224D660003AE56 /* Jinro ver.01 */;
+			targetProxy = DBB67A0A25224D6C0003AE56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBB67A1025224D6C0003AE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBB67A1125224D6C0003AE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB67A1325224D6C0003AE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jinro ver.01/Preview Content\"";
+				DEVELOPMENT_TEAM = 859MDW2D39;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Jinro ver.01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itsuki-MATSUNAGA.Jinro-ver-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBB67A1425224D6C0003AE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jinro ver.01/Preview Content\"";
+				DEVELOPMENT_TEAM = 859MDW2D39;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Jinro ver.01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itsuki-MATSUNAGA.Jinro-ver-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBB67A1625224D6C0003AE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 859MDW2D39;
+				INFOPLIST_FILE = "Jinro ver.01Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itsuki-MATSUNAGA.Jinro-ver-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jinro ver.01.app/Jinro ver.01";
+			};
+			name = Debug;
+		};
+		DBB67A1725224D6C0003AE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 859MDW2D39;
+				INFOPLIST_FILE = "Jinro ver.01Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itsuki-MATSUNAGA.Jinro-ver-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jinro ver.01.app/Jinro ver.01";
+			};
+			name = Release;
+		};
+		DBB67A1925224D6C0003AE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 859MDW2D39;
+				INFOPLIST_FILE = "Jinro ver.01UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itsuki-MATSUNAGA.Jinro-ver-01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jinro ver.01";
+			};
+			name = Debug;
+		};
+		DBB67A1A25224D6C0003AE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 859MDW2D39;
+				INFOPLIST_FILE = "Jinro ver.01UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itsuki-MATSUNAGA.Jinro-ver-01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jinro ver.01";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB679E825224D660003AE56 /* Build configuration list for PBXProject "Jinro ver.01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB67A1025224D6C0003AE56 /* Debug */,
+				DBB67A1125224D6C0003AE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB67A1225224D6C0003AE56 /* Build configuration list for PBXNativeTarget "Jinro ver.01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB67A1325224D6C0003AE56 /* Debug */,
+				DBB67A1425224D6C0003AE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB67A1525224D6C0003AE56 /* Build configuration list for PBXNativeTarget "Jinro ver.01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB67A1625224D6C0003AE56 /* Debug */,
+				DBB67A1725224D6C0003AE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB67A1825224D6C0003AE56 /* Build configuration list for PBXNativeTarget "Jinro ver.01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB67A1925224D6C0003AE56 /* Debug */,
+				DBB67A1A25224D6C0003AE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB679E525224D660003AE56 /* Project object */;
+}
