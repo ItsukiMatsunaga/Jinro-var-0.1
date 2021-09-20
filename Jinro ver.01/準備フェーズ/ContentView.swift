@@ -76,9 +76,6 @@ struct ContentView: View {
                     }
 
                     Spacer()
-                    NavigationLink(destination:Rule_top(),isActive: $rule){
-                        
-                    }
                 }
                 .padding()
             }

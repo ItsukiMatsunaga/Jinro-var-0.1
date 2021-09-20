@@ -29,11 +29,6 @@
 		DB89DE7C2546A6530022484C /* CheckFortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE7B2546A6530022484C /* CheckFortune.swift */; };
 		DB89DE812546A85E0022484C /* FortuneResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE802546A85E0022484C /* FortuneResult.swift */; };
 		DB89DE862546A9ED0022484C /* CheckGiron.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89DE852546A9ED0022484C /* CheckGiron.swift */; };
-		DB8D6428256648BF00C95DB6 /* Rule_top.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D6427256648BF00C95DB6 /* Rule_top.swift */; };
-		DB8D642E2566495000C95DB6 /* gamesinkou.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D642C2566495000C95DB6 /* gamesinkou.swift */; };
-		DB8D642F2566495000C95DB6 /* gaiyou.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D642D2566495000C95DB6 /* gaiyou.swift */; };
-		DB8D64352566496200C95DB6 /* shouhai.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D64332566496200C95DB6 /* shouhai.swift */; };
-		DB8D64362566496200C95DB6 /* yakusyoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D64342566496200C95DB6 /* yakusyoku.swift */; };
 		DBA9D69825304A7C00884362 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D69725304A7C00884362 /* Control.swift */; };
 		DBA9D6A02533F62100884362 /* JobSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D69F2533F62100884362 /* JobSelect.swift */; };
 		DBA9D6A52534984600884362 /* JobRule_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9D6A42534984600884362 /* JobRule_01.swift */; };
@@ -98,11 +93,6 @@
 		DB89DE7B2546A6530022484C /* CheckFortune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFortune.swift; sourceTree = "<group>"; };
 		DB89DE802546A85E0022484C /* FortuneResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneResult.swift; sourceTree = "<group>"; };
 		DB89DE852546A9ED0022484C /* CheckGiron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckGiron.swift; sourceTree = "<group>"; };
-		DB8D6427256648BF00C95DB6 /* Rule_top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule_top.swift; sourceTree = "<group>"; };
-		DB8D642C2566495000C95DB6 /* gamesinkou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gamesinkou.swift; path = "../../../../OneDrive_1_2020-11-19/Jinro_Rule/Jinro_Rule/gamesinkou.swift"; sourceTree = "<group>"; };
-		DB8D642D2566495000C95DB6 /* gaiyou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gaiyou.swift; path = "../../../../OneDrive_1_2020-11-19/Jinro_Rule/Jinro_Rule/gaiyou.swift"; sourceTree = "<group>"; };
-		DB8D64332566496200C95DB6 /* shouhai.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = shouhai.swift; path = "../../../../OneDrive_1_2020-11-19/Jinro_Rule/Jinro_Rule/shouhai.swift"; sourceTree = "<group>"; };
-		DB8D64342566496200C95DB6 /* yakusyoku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = yakusyoku.swift; path = "../../../../OneDrive_1_2020-11-19/Jinro_Rule/Jinro_Rule/yakusyoku.swift"; sourceTree = "<group>"; };
 		DBA9D69725304A7C00884362 /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
 		DBA9D69F2533F62100884362 /* JobSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSelect.swift; sourceTree = "<group>"; };
 		DBA9D6A42534984600884362 /* JobRule_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobRule_01.swift; sourceTree = "<group>"; };
@@ -235,18 +225,6 @@
 			path = "早朝フェーズ";
 			sourceTree = "<group>";
 		};
-		DB8D64262566489500C95DB6 /* ルール説明 */ = {
-			isa = PBXGroup;
-			children = (
-				DB8D6427256648BF00C95DB6 /* Rule_top.swift */,
-				DB8D642D2566495000C95DB6 /* gaiyou.swift */,
-				DB8D642C2566495000C95DB6 /* gamesinkou.swift */,
-				DB8D64332566496200C95DB6 /* shouhai.swift */,
-				DB8D64342566496200C95DB6 /* yakusyoku.swift */,
-			);
-			path = "ルール説明";
-			sourceTree = "<group>";
-		};
 		DBB679E425224D660003AE56 = {
 			isa = PBXGroup;
 			children = (
@@ -273,7 +251,6 @@
 				DBA9D69725304A7C00884362 /* Control.swift */,
 				DB151DF7256AE78100644F64 /* Music */,
 				DB89DE302546844E0022484C /* 準備フェーズ */,
-				DB8D64262566489500C95DB6 /* ルール説明 */,
 				DB89DE4225468F6E0022484C /* 早朝フェーズ */,
 				DB89DE34254684A80022484C /* 夜フェーズ */,
 				DB18D5DA2559C13C0076DDA4 /* 投票フェーズ */,
@@ -446,7 +423,6 @@
 			files = (
 				DB89DE36254684D70022484C /* Night_rule.swift in Sources */,
 				DBBE3C762549DE0E008D08F7 /* DJ_on_result.swift in Sources */,
-				DB8D642E2566495000C95DB6 /* gamesinkou.swift in Sources */,
 				DB151DF0256AE4AA00644F64 /* PlaySound.swift in Sources */,
 				DB18D5E42559C4EF0076DDA4 /* voting_rule02.swift in Sources */,
 				DBA9D6A52534984600884362 /* JobRule_01.swift in Sources */,
@@ -456,7 +432,6 @@
 				DB18D5FE2559CFC00076DDA4 /* voting_result.swift in Sources */,
 				DBBE3C7B2549DF38008D08F7 /* DJ_off.swift in Sources */,
 				DBA9D69825304A7C00884362 /* Control.swift in Sources */,
-				DB8D64352566496200C95DB6 /* shouhai.swift in Sources */,
 				DBBE3C712549DD1E008D08F7 /* DJ_on.swift in Sources */,
 				DB89DE6A25469BBC0022484C /* CheckPlayer_Mor.swift in Sources */,
 				DB89DE6525468FF90022484C /* Moring_rule.swift in Sources */,
@@ -466,7 +441,6 @@
 				DB89DE3E254687580022484C /* Police_rule.swift in Sources */,
 				DBBE3C552549D5B7008D08F7 /* Police_on.swift in Sources */,
 				DBF7E7642534D08F0055DE14 /* Test.swift in Sources */,
-				DB8D6428256648BF00C95DB6 /* Rule_top.swift in Sources */,
 				DB89DE772546A4F00022484C /* CheckOther.swift in Sources */,
 				DBA9D6AA2534989900884362 /* JobRule_02.swift in Sources */,
 				DBBE3C6C2549DC09008D08F7 /* DJ_rule.swift in Sources */,
@@ -479,12 +453,10 @@
 				DBC56288252E2B0600E867BD /* PlayerName.swift in Sources */,
 				DBBE3C5F2549D840008D08F7 /* Police_off.swift in Sources */,
 				DB18D5DC2559C1800076DDA4 /* voting_rule.swift in Sources */,
-				DB8D642F2566495000C95DB6 /* gaiyou.swift in Sources */,
 				DB18D6082559D9DB0076DDA4 /* Discussion02.swift in Sources */,
 				DB18D5F92559CA0D0076DDA4 /* voting_on.swift in Sources */,
 				DB89DE7C2546A6530022484C /* CheckFortune.swift in Sources */,
 				DBC56298252E8C1600E867BD /* CheckPlayer.swift in Sources */,
-				DB8D64362566496200C95DB6 /* yakusyoku.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
